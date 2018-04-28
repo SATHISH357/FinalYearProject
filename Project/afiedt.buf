@@ -1,0 +1,3 @@
+select serviceid, avg(rating) from dtprtlist1
+group by serviceid
+/
